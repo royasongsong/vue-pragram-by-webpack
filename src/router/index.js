@@ -8,19 +8,6 @@ import search from '@/components/search'
 Vue.use(Router)
 
 export default new Router({
-  // routes: [
-  //   {
-  //     path: '/',
-  //     name: 'index',
-  //     alias:'/home',
-  //     component: index,
-  //     children:[
-  //       {path:'/member',component:member},
-  //       {path:'/shopCar',component:shopCar},
-  //       {path:'/search',component:search},
-  //     ]
-  //   }
-  // ]
   routes: [
     {
       path: '/',
@@ -43,5 +30,6 @@ export default new Router({
       name: 'search',
       component: search,
     }
-  ]
+  ],
+  linkActiveClass:'mui-active',
 })

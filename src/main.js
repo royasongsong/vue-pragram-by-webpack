@@ -9,7 +9,13 @@ import 'mint-ui/lib/style.css'
 
 Vue.use(MintUi)
 
-import mui from './assets/mui/css/mui.min.css'
+import './assets/mui/css/mui.min.css'
+import './assets/mui/css/icons-extra.css'
+import './assets/mui/fonts/mui-icons-extra.ttf'
+
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
 
 Vue.config.productionTip = false
 
